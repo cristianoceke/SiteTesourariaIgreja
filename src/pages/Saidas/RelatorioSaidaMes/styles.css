@@ -1,0 +1,54 @@
+.section-card {
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+    gap: 7rem;
+}
+
+.RelatGS-content {
+    display: flex;
+    align-items: center;
+}
+
+.selectfilter {
+    display: flex;
+    text-align: center;
+}
+
+.filterTitle {
+    margin-top: 16px;
+    padding: 0px 0px 0px 10px;
+}
+
+.clasSelAno {
+    display: flex;
+    background: #ebe9e9;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 16px 0px 0px 16px;
+}
+
+.clasSelMes {
+    text-align: center;
+    background: #ebe9e9;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 16px 0px 0px 16px;
+}
+
+.btntitulo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 19px;
+    border-radius: 6px;
+    background: #017f8d;
+    cursor: pointer;
+}
+
+.btnAtualiza {
+    background: none;
+    color: #fff;
+    font-size: 1rem;
+}
+

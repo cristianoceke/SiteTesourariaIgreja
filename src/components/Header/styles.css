@@ -1,0 +1,53 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* *** main body section **** */
+.main--content {
+    background: #ebe9e9;
+}
+
+.header--wrapper img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.header--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+
+.header--title {
+    color: #029cad;
+}
+
+.img {
+    border-radius: 100%;
+    top: 5px;
+    align-items: left;
+    max-width:60px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+}
+
+.user--info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.searh--box {
+    color: #017f8d;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 0px;
+}

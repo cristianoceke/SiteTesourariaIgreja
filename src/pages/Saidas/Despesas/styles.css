@@ -1,0 +1,94 @@
+.container {
+    max-width: 100%; 
+    margin: 6px 0px 6px 6px;
+    padding-top: 20px;
+}
+
+.btnCadDes {
+    background-color: #017f8d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Reduzi o padding do botão */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    gap: 10px; /* Aumentei o espaço entre os elementos do formulário */
+    width: 100%; /* Ocupa toda a largura do container */
+}
+
+.linha {
+    display: flex;
+    gap: 60px; /* Aumentei o espaço entre os campos */
+}
+
+.linha label {
+    flex: 1;
+    max-width: 25%; /* Cada label ocupa 25% da largura do formulário */
+}
+
+.linha input[type="text"],
+.linha input[type="date"] {
+    flex: 1;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btnDes {
+    background-color: #029cad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Reduzi o padding do botão */
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto; /* Ajusta o tamanho do botão de acordo com o conteúdo */
+}
+
+.radio-button-container {
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos nas extremidades */
+    align-items: center;
+    margin: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: #029cad;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.GRecib {
+    background: #029cad;
+    border-radius: 12px;
+    font-size: 10px;
+    padding: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

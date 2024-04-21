@@ -1,0 +1,38 @@
+.links-container {
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.links-list {
+    list-style-type: none;
+    display: flex;
+    padding: 2.5rem;
+}
+
+.links-list li {
+    margin-right: 4px;
+    border-radius: 4px;
+    background: #017f8d;
+    padding: 8px;
+}
+
+.links-list li:last-child {
+    margin-right: 0;
+}
+
+.links-list li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 12px;
+}
+
+.links-list li:focus-within {
+    background-color: #fff;
+    border: solid 2px #ccc;
+}
+
+.links-list li:focus-within a {
+    color: #017f8d;
+}
+

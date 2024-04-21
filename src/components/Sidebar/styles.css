@@ -1,0 +1,62 @@
+.sidebarUl {
+    list-style: none; /* Remove os marcadores de lista padrão */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    height: 97vh;
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: #017f8d;
+}
+
+.sidebarUl {
+    height: 87%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.sidebarUl li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.sidebarUl li:hover {
+    background: #e0e0e058;
+}
+
+
+.sidebarUl a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1rem;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    height: 100px;
+    width: 100px;
+}
+

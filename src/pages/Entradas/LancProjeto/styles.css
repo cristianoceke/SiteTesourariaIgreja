@@ -1,0 +1,48 @@
+.formGeral {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 5rem;
+}
+
+.divLab {
+    display: flex;
+    flex-direction: row;
+}
+
+.divInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.divLab label {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.divInput input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    margin-left: 8px;
+    padding: 8px 2rem;
+    font-size: 14px;
+    background-color: #017f8d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+

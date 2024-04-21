@@ -1,0 +1,22 @@
+.section-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #029cad;
+}
+
+.section2-content {
+    background: #fff;
+    margin-top: 1rem;
+    padding: 0px 20px 16px 20px;
+    border-radius: 10px;
+    color: #029cad;
+}
+
+
+.section-card {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+

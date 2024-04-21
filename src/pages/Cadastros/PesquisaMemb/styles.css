@@ -1,0 +1,90 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.PesquiMemb {
+    background: #fff;
+    color: #017f8d;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.DivPes {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+.PesTipo, .PesName{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.selectoresfilter{
+    padding-top: 25px;
+}
+
+.seletores {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.seletor1, 
+.seletor2 {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.seletor1, input {
+    margin-right: 6px;
+}
+
+.DivPesName {
+    margin-left: 5rem;
+    margin-right: 7rem;
+}
+
+Select {
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.PesName Input {
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 6px;
+    width: 150%;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+
+.LabelRegisResl {
+    margin-top: 2rem;
+    border: solid 1px #ebe9e9;
+    width: 100%;
+    padding: 4px;
+    border-radius: 8px;
+    max-width: 100px;
+    box-sizing: border-box;
+}
+.labelRegis {
+    margin: 1rem;
+}
+
+.btnPes {
+    background-color: #029cad;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 7rem;
+}
+
+

@@ -1,0 +1,43 @@
+.table-titulo{
+    margin-top: 12px;
+    padding-bottom: 12px;
+}
+
+table {
+    margin-top: 1.7rem; 
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+}
+th {
+    background-color: #017f8d;
+    color: #fff;
+    border: 1px solid #5d5d5d5c;
+    text-align: center;
+    padding: 4px;
+}
+
+tbody {
+    text-align: center;
+    padding: 3rem;
+}
+
+tr {
+    margin: 12px;
+}
+
+td {
+    border: 1px solid #dcd9d95c;
+    text-align: center;
+    padding: 6px;
+}
+
+table .btntable {
+    background: #018d78;
+    border-radius: 6px;
+    color: #f5f0f0;
+    padding: 4px;
+    font-size: 12px;
+    margin: 4px;
+    cursor: pointer;
+}

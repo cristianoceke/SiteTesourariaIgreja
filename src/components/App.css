@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+    display: flex;
+    background-color: #ebe9e9;
+    height: 100vh; 
+  }
+  
+  .main {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    margin: 20px 20px 0px 20px;
+  }
+  
+  
+  .sidebar {
+    width: 200px; 
+    height: 97vh;
+    background-color: #017f8d; 
+    border-radius: 20px;
+    margin: 20px 0px 0px 20px;
+  }
+  
+  
+  .main > * {
+    margin-bottom: 20px; 
+  
+  .footer {
+    text-align: center;
+    margin-top: auto; 
+    border-radius: 20px;
+    color: #333; 
+  }

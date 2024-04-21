@@ -1,0 +1,45 @@
+.section-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #029cad;
+}
+
+
+.section-card {
+    margin-top: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.dark-ciano {
+    background: #029cad;
+    box-shadow: 1px 1px 8px #017474;
+}
+
+.dark-green {
+    background: rgb(31, 79, 131);
+    box-shadow: 1px 1px 8px #013574;
+}
+
+.light-yellow {
+    background: rgb(193, 170, 38);
+    box-shadow: 1px 1px 8px #746c01;
+}
+
+
+.light-ciano {
+    background: #016974;
+    box-shadow: 1px 1px 8px #016974;
+}
+
+.table-containe {
+    background: #fff;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    color: #029cad;
+}
