@@ -1,11 +1,13 @@
 import "./styles.css";
 
+import "./styles.css";
+
 function PesquisaMemb() {
     return (
         <div className="PesquiMemb">
             <h3>Pesquisar</h3>
             <div className="DivPes">
-                <div className="DivTipo">
+                <div className="DivPesTipo">
                     <div className="PesTipo">
                         <label htmlFor="text"> Tipo de Pessoa </label>
                         <select name="" id="">

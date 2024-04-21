@@ -12,10 +12,10 @@ function Analise() {
                 title="Principal" 
                 subtitle="Análise" 
             />
-            <div className="section-content">
+            <div className="analise-content">
                 <h3>Segunda Feira 08.04.2024 </h3>
-                <div className="section-containe">
-                    <div className="section-card"> 
+                <div className="analise-containe">
+                    <div className="analise-card"> 
                         <Card 
                             icon={<FaMoneyCheckAlt size={60}/>}
                             title=" Entrada Anual "
@@ -43,7 +43,7 @@ function Analise() {
                     </div>
                 </div>
             </div>
-            <div className="table-containe">
+            <div className="analise-table-containe">
                 <Table />
             </div>
         </div>

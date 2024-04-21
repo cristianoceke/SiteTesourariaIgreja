@@ -21,8 +21,10 @@
   
   
   .sidebar {
+    display: flex;
     width: 200px; 
     height: 97vh;
+    flex-wrap: wrap;
     background-color: #017f8d; 
     border-radius: 20px;
     margin: 20px 0px 0px 20px;
@@ -30,7 +32,8 @@
   
   
   .main > * {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+  } 
   
   .footer {
     text-align: center;

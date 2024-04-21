@@ -4,17 +4,17 @@ import Card from '../../../components/CardIcon/Card';
 
 function RelatorioGentrada() {
     return (
-        <div className='RelatGS-containe'>
+        <div className='GE-containe'>
             <h2> Relatório Entradas Mensais</h2>
-            <div className='RelatGS-content'>
-                <div className='filterEntr'>
-                    <div className='filterTitle'>
+            <div className='GE-content'>
+                <div className='GEfilterEntr'>
+                    <div className='GEfilterTitle'>
                     <span> Período </span>
                     <h2>Selecione o mês e ano </h2>
                     </div>
-                    <div className='selectfilter'>
-                        <div className='selectFilterMes'>
-                            <select className="clasSelMes" id="meses" name="meses">
+                    <div className='GEselectfilter'>
+                        <div className='GEselectFilterMes'>
+                            <select className="GEclasSelMes" id="meses" name="meses">
                                 <option value="1">Janeiro</option>
                                 <option value="2">Fevereiro</option>
                                 <option value="3">Março</option>
@@ -29,8 +29,8 @@ function RelatorioGentrada() {
                                 <option value="12">Dezembro</option>
                             </select>
                         </div>
-                        <div className='selectFilterAno'>
-                            <select className="clasSelAno" id="ano" name="ano">
+                        <div className='GEselectFilterAno'>
+                            <select className="GEclasSelAno" id="ano" name="ano">
                                 <option value="1">2020</option>
                                 <option value="2">2021</option>
                                 <option value="3">2022</option>
@@ -46,11 +46,11 @@ function RelatorioGentrada() {
                             </select>
                         </div>
                     </div>
-                    <div className='btntitulo'>
-                        <button className='btnAtualiza'> PESQUISAR </button>
+                    <div className='GEbtntitulo'>
+                        <button className='GEbtnAtualiza'> PESQUISAR </button>
                     </div>
                 </div>
-                    <div className="Section-Card-Entr"> 
+                    <div className="GESection-Card-Entr"> 
                         <Card 
                             icon={<FaMoneyCheckAlt size={60}/>}
                             title="Entradas de Dízimos & Ofertas"

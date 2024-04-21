@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
 .PesquiMemb {
     background: #fff;
     color: #017f8d;
@@ -16,16 +15,26 @@
 .DivPes {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 8px;
 }
 
-.PesTipo, .PesName{
+
+.PesTipo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    margin-bottom: 15px;
+}
+
+.PesName{
     display: flex;
     flex-direction: column;
     padding: 8px;
 }
+
 .selectoresfilter{
-    padding-top: 25px;
+    margin-left: 20px;
 }
 
 .seletores {
@@ -45,8 +54,7 @@
 }
 
 .DivPesName {
-    margin-left: 5rem;
-    margin-right: 7rem;
+    margin-bottom: 15px;
 }
 
 Select {
@@ -59,7 +67,7 @@ Select {
     border: 1px solid #ccc;
     padding: 4px;
     border-radius: 6px;
-    width: 150%;
+    width: 140%;
     max-width: 350px;
     box-sizing: border-box;
 }
@@ -76,15 +84,15 @@ Select {
 .labelRegis {
     margin: 1rem;
 }
+.PesButton {
+    display: flex;
+}
 
 .btnPes {
     background-color: #029cad;
     color: #fff;
-    padding: 8px 20px;
     border-radius: 8px;
     cursor: pointer;
-    margin-top: 30px;
-    margin-left: 7rem;
 }
 
 
