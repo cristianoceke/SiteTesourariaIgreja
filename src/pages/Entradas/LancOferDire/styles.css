@@ -1,29 +1,29 @@
-.LançDiziContainer {
+.LançOferDirContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 2rem;
 }
 
-.LançDiziTipo {
+.LançOferDirTipo {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
 }
 
-.LançDiziName {
+.LançOferDirName {
     display: flex;
     flex-direction: column;
 }
 
 
-.LançDiziButton {
+.LançOferDirButton {
     text-align: center;
 }
 
-.LançDiziTipo 
+.LançOferDirTipo 
 select, 
-.LançDiziName 
+.LançOferDirName 
 input
 {
     border: 1px solid #ccc;

@@ -23,12 +23,12 @@
 }
 
 .divLab label {
-    width: 150px;
+    width: 145px;
     margin-right: 10px;
 }
 
 .divInput input {
-    padding: 8px;
+    padding: 4px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 10px;

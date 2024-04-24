@@ -15,8 +15,8 @@ function Entradas() {
             <div className="section-content">
                 <RelatorioGentrada />
             </div>
-            <div className="links-container">
-                <ul className="links-list">
+            <div className="Entlinks-container">
+                <ul className="Entlinks-list">
                     <li><NavLink to="/entradas" activeClassName="active"> <h4> Lançar Dízimos & Ofertas </h4> </NavLink></li>
                     <li><NavLink to="/entradas/lancOfertDire" activeClassName="active"> <h4> Lançar Ofertas Direcionadas </h4> </NavLink></li>
                     <li><NavLink to="/entradas/lancProjeto" activeClassName="active"> <h4> Lançar Projetos </h4> </NavLink></li>

@@ -2,8 +2,8 @@ import "./styles.css";
 
 function LancamentoDizi() {
     return(
-        <div>
-            <div className="LançTipo">
+        <div className="LançDiziContainer">
+            <div className="LançDiziTipo">
                 <label htmlFor="text"> Tipo de Pessoa </label>
                 <select name="" id="">
                     <option value="1"> Pastor </option>
@@ -14,37 +14,37 @@ function LancamentoDizi() {
                     <option value="5"> Avulso </option>
                 </select>
             </div>
-            <div className="DivLançName">
-                <div className="LançName">
-                    <label htmlFor="text"> Nome, Código ou E-mail</label>
-                    <input type="text" name="" id="" />
+            <div className="LançDiziDivName">
+                <div className="LançDiziName">
+                    <label htmlFor="text"> Nome </label>
+                    <input className="LançInput"  type="text" name="" id="" />
                 </div>
             </div>
-            <div className="DivLançName">
-                <div className="LançName">
-                    <label htmlFor="number"> Dízimo</label>
-                    <input type="number" name="" id="" />
+            <div className="LançDiziDivName">
+                <div className="LançDiziName">
+                    <label htmlFor="number"> Dízimo </label>
+                    <input type="text" name="" id="" placeholder="R$ 24.000,00"/>
                 </div>
             </div>
-            <div className="DivLançName">
-                <div className="LançName">
+            <div className="LançDiziDivName">
+                <div className="LançDiziName">
                     <label htmlFor="number"> Oferta </label>
-                    <input type="number" name="" id="" />
+                    <input type="number" name="" id="" placeholder="R$ 24.000,00"/>
                 </div>
             </div>
-            <div className='Lançselectoresfilter'>
-                    <div className="Lançseletores">
-                        <div className='Lançseletor1'>
+            <div className='LançDiziselectoresfilter'>
+                    <div className="LançDiziseletores">
+                        <div className='LançDiziseletor1'>
                             <input type="radio" id="" name="localidade" value="Sede" />
                             <label htmlFor="local"> Sede </label>
                         </div>
-                        <div className='Lançseletor2'>
+                        <div className='LançDiziseletor2'>
                             <input type="radio" id="" name="localidade" value="congregação" />
                             <label htmlFor="local"> Congregação </label>
                         </div>
                     </div>
                 </div>
-                <div className="LançButton">
+                <div className="LançDiziButton">
                     <button className="btnPes"> Lançar </button>
                 </div>
         </div>
