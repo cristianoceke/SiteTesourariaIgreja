@@ -3,7 +3,7 @@ import "./styles.css"
 function CadastroDespesas() {
     return (
         <div className="container">
-            <button className='btnCadDes'>Cadastro de Despesas</button>
+            <h2>Cadastro de Despesas</h2>
             <form>
                 <div className="linha">
                     <label htmlFor="departamento">Departamento:</label>

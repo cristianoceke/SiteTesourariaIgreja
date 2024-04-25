@@ -9,35 +9,32 @@
 .app {
     display: flex;
     background-color: #ebe9e9;
-    height: 100vh; 
   }
   
   .main {
     flex: 1; 
     display: flex;
     flex-direction: column; 
-    margin: 20px 20px 0px 20px;
+    margin: 20px 10px 0px 20px;
   }
   
   
   .sidebar {
     display: flex;
-    width: 200px; 
-    height: 97vh;
+    margin-top: 20px;
+    width: 15vw;
+    height: 100vh; 
     flex-wrap: wrap;
     background-color: #017f8d; 
     border-radius: 20px;
-    margin: 20px 0px 0px 20px;
+    margin-left: 10px;
   }
-  
-  
-  .main > * {
-    margin-bottom: 20px;
-  } 
   
   .footer {
     text-align: center;
-    margin-top: auto; 
+    margin-top: auto;
+    padding: 8px; 
     border-radius: 20px;
-    color: #333; 
+    color: #333;
+    font-size: 12px; 
   }
