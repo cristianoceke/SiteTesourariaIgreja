@@ -10,6 +10,7 @@ import Saidas from '../pages/Saidas/Saidas';
 import Pagamentos from '../pages/Pagamentos/Pagamentos';
 import Sair from '../pages/Sair/Sair';
 
+
 function App() {
     return (
         <Router>

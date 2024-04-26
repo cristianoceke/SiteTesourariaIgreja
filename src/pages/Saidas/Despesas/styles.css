@@ -1,5 +1,4 @@
-.container {
-    max-width: 100%; 
+.container { 
     margin: 6px 0px 6px 6px;
     padding-top: 20px;
 }
@@ -13,7 +12,7 @@
     cursor: pointer;
 }
 
-form {
+.CDForm {
     display: flex;
     flex-direction: column;
     margin-top: 8px;
@@ -46,7 +45,6 @@ form {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    width: auto;
 }
 
 .radio-button-container {
@@ -56,9 +54,8 @@ form {
     margin: 8px;
 }
 
-table {
+.DesTable {
     width: 95%;
-    margin-left: 20px;
     border-collapse: collapse;
 }
 

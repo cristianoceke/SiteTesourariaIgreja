@@ -4,7 +4,7 @@ function CadastroDespesas() {
     return (
         <div className="container">
             <h2>Cadastro de Despesas</h2>
-            <form>
+            <form className="CDForm">
                 <div className="linha">
                     <label htmlFor="departamento">Departamento:</label>
                     <label htmlFor="verba">Verba:</label>
@@ -39,7 +39,7 @@ function CadastroDespesas() {
                     </div>
                 </div>
             </form>
-            <table>
+            <table className="DesTable">
                 <thead>
                     <tr>
                         <th>Departamento</th>

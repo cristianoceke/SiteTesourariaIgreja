@@ -12,7 +12,7 @@ function Saidas() {
             <div className="section-content">
                 <RelatorioGsaida />
             </div>
-            <div className="section2-content">
+            <div className="section-content2">
                 <Despesas />
             </div>
         </div>
