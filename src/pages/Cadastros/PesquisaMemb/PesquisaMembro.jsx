@@ -72,7 +72,11 @@ function PesquisaMemb() {
                                 <th>xXx</th>
                                 <th>xXx</th>
                                 <th>xXx</th>
-                                <th><button className='GRecib'>Gerar Recibo</button></th>
+                                <th>
+                                    <button className='GEditar'> - Editar </button>
+                                    <button className='GEnviar'> + Enviar </button>
+                                    <button className='GRecib'> Gerar Recibo </button>
+                                </th>
                             </tr>
                         </thead>
                         <tbody>

@@ -16,6 +16,12 @@ function LancOfertDire(){
             </div>
             <div className="LançOferDirName">
                 <div className="LançOferDirName">
+                    <label htmlFor="text"> Apelido </label>
+                    <input className="LançOferInput"  type="text" name="Nome" id="Nome" />
+                </div>
+            </div>
+            <div className="LançOferDirName">
+                <div className="LançOferDirName">
                     <label htmlFor="text"> Nome </label>
                     <input className="LançOferInput"  type="text" name="Nome" id="Nome" />
                 </div>

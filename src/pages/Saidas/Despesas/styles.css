@@ -31,7 +31,9 @@
 }
 
 .linha input[type="text"],
-.linha input[type="date"] {
+.linha input[type="date"],
+.linha select
+{
     flex: 1;
     padding: 4px;
     border: 1px solid #ccc;
@@ -75,9 +77,27 @@ tbody tr:nth-child(odd) {
     background-color: #f9f9f9;
 }
 
+.GEditar {
+    background: #ada202;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.GEnviar {
+    background: #02ad6e;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
 .GRecib {
     background: #029cad;
-    border-radius: 12px;
+    border-radius: 4px;
     font-size: 10px;
     padding: 4px;
     color: #fff;

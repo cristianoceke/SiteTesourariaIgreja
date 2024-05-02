@@ -12,8 +12,22 @@ function CadastroDespesas() {
                     <label htmlFor="valor">Valor:</label>
                 </div>
                 <div className="linha">
-                    <input type="text" id="departamento" />
-                    <input type="text" id="verba" />
+                    <select name="" id="departamento">
+                        <option value=""> Pastoral </option>
+                        <option value=""> Presbitéros </option>
+                        <option value=""> Diáconia </option>
+                        <option value=""> Senhores </option>
+                        <option value=""> Senhoras </option>
+                        <option value=""> Infantil </option>
+                        <option value=""> Ministério de Louvor </option>
+                        <option value=""> FJM </option>
+                        <option value=""> STAFF </option>
+                    </select>
+                    <select name="" id="verba">
+                        <option value=""> Próprio </option>
+                        <option value=""> Projetos </option>
+                        <option value=""> Oferta Direcionada </option>
+                    </select>
                     <input type="date" id="data" />
                     <input type="text" id="valor" />
                 </div>
@@ -24,13 +38,31 @@ function CadastroDespesas() {
                     <label htmlFor="descricao">Descrição:</label>
                 </div>
                 <div className="linha">
-                    <input type="text" id="tipo" />
+                <select name="" id="tipo">
+                        <option value=""> NF </option>
+                        <option value=""> Cartão Crédito </option>
+                        <option value=""> Pix </option>
+                        <option value=""> Dinheiro </option>
+                        <option value=""> Transferências </option>
+                        <option value=""> Empréstimo </option>
+                        <option value=""> Reposição </option>
+                        <option value=""> Contas Fixas </option>
+                        <option value=""> Boletos </option>
+                    </select>
                     <input type="text" id="numero" />
                     <input type="text" id="empresa" />
                     <input type="text" id="descricao" />
                 </div>
                 <div className="linha2">
                     <div className="radio-button-container">
+                        <div>
+                            <input type="radio" id="semImagem" name="imagem" value="naoPreciso" />
+                            <label htmlFor="semImagem"> Pagamento CPF </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="semImagem" name="imagem" value="naoPreciso" />
+                            <label htmlFor="semImagem"> Pagamento CNPJ </label>
+                        </div>
                         <div>
                             <input type="radio" id="semImagem" name="imagem" value="naoPreciso" />
                             <label htmlFor="semImagem"> Não preciso de imagem </label>
@@ -61,7 +93,11 @@ function CadastroDespesas() {
                         <th>xXx</th>
                         <th>xXx</th>
                         <th>xXx</th>
-                        <th><button className='GRecib'>Gerar Recibo</button></th>
+                        <th>
+                            <button className='GEditar'> - Editar </button>
+                            <button className='GEnviar'> + Enviar </button>
+                            <button className='GRecib'> Gerar Recibo </button>
+                        </th>
                     </tr>
                 </thead>
             </table>

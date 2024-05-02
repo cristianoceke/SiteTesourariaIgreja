@@ -4,6 +4,16 @@ function LancamentoDizi() {
     return(
         <div className="LançDiziContainer">
             <div className="LançDiziTipo">
+            <label htmlFor="text"> Malote </label>
+                <select name="" id="">
+                    <option value="1"> 1º Malote </option>
+                    <option value="2"> 2º Malote </option>
+                    <option value="3"> 3º Malote </option>
+                    <option value="4"> 4º Malote </option>
+                    <option value="5"> Congreção </option>
+                </select>
+            </div>
+            <div className="LançDiziTipo">
                 <label htmlFor="text"> Tipo de Pessoa </label>
                 <select name="" id="">
                     <option value="1"> Pastor </option>
@@ -11,8 +21,14 @@ function LancamentoDizi() {
                     <option value="3"> Diácono </option>
                     <option value="4"> Coordenador </option>
                     <option value="5"> Membro </option>
-                    <option value="5"> Avulso </option>
+                    <option value="6"> Avulso </option>
                 </select>
+            </div>
+            <div className="LançDiziDivName">
+                <div className="LançDiziName">
+                    <label htmlFor="text"> Apelido </label>
+                    <input className="LançInput"  type="text" name="Nome" id="Nome" />
+                </div>
             </div>
             <div className="LançDiziDivName">
                 <div className="LançDiziName">
