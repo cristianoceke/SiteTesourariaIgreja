@@ -1,0 +1,36 @@
+.CadMemb {
+    padding: 2rem;
+    color: #017f8d;
+    align-items: center;
+}
+
+
+.Cad-Container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.DivCad {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 3rem 1rem 1rem;
+}
+
+.DivCad Input,
+.DivCad select
+{
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 6px;
+    width: 140%;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+
+.seletoresCad {
+    margin-top: 1rem;
+}

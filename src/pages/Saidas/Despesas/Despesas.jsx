@@ -64,9 +64,6 @@ function CadastroDespesas() {
                         <th><button className='GRecib'>Gerar Recibo</button></th>
                     </tr>
                 </thead>
-                <tbody>
-                    {/* Aqui você pode preencher a tabela com os dados dinâmicos */}
-                </tbody>
             </table>
         </div>
     );

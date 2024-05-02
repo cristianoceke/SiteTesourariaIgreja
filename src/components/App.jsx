@@ -20,7 +20,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/analise" element={<Analise />} />
-                        <Route path="/cadastros" element={<Cadastros />} />
+                        <Route path="/cadastros/*" element={<Cadastros />} />
                         <Route path="/entradas/*" element={<Entradas />} /> {/* Use * para renderizar qualquer rota dentro de Entradas */}
                         <Route path="/saidas" element={<Saidas />} />
                         <Route path="/pagamentos" element={<Pagamentos />} />

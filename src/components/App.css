@@ -21,19 +21,23 @@
   
   .sidebar {
     display: flex;
-    margin: 20px 0px 20px 10px;
-    max-width: 14vw;
-    min-height: 100vh; 
+    max-width: 14%;
+    min-height: 99.6vh; 
     flex-wrap: wrap;
+    margin: 1.5% 0% 0.5% 0.6%;
     background-color: #017f8d; 
     border-radius: 20px;
   }
+
+
+
+  
   
   .footer {
     text-align: center;
     margin-top: auto;
-    padding: 8px; 
-    border-radius: 20px;
+    padding: 0.1%; 
+    border-radius: 20%;
     color: #333;
-    font-size: 12px; 
+    font-size: 62%; 
   }
